@@ -1,0 +1,27 @@
+.background{
+    height:400px;
+    width:1600px;
+    color:black;
+    background-color: bisque;
+}
+button{
+    color:white;
+    padding:10px 4px;
+    border-radius: 30px;
+    background:black;
+
+}
+
+.restaurant{
+    display: flex;
+    padding:10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img {
+    border-radius: 10px;
+    transition-duration:1s ;
+}
+img:hover{
+    transform: scale(1.1);
+}
